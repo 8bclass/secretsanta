@@ -31,8 +31,24 @@
 <script type="text/javascript">
 
 	window.onload = ()=>{
-		this.sessionStorage.setItem("username", "gennadi");
-		this.sessionStorage.setItem("password", "gennadi2007");
+		this.sessionStorage.setItem("username", "Gennadi");
+		this.sessionStorage.setItem("password", "Gennadi2007");
+		this.sessionStorage.setItem("username1", "ZSamvel");
+		this.sessionStorage.setItem("password1", "ZSamvel2007");
+		this.sessionStorage.setItem("username2", "ChSamvel");
+		this.sessionStorage.setItem("password2", "ChSamvel2007");
+		this.sessionStorage.setItem("username3", "DHayk");
+		this.sessionStorage.setItem("password3", "DHayk2007");
+		this.sessionStorage.setItem("username4", "YHayk");
+		this.sessionStorage.setItem("password4", "YHayk2007");
+		this.sessionStorage.setItem("username5", "Eduard");
+		this.sessionStorage.setItem("password5", "Eduard2007");
+		this.sessionStorage.setItem("username6", "Sophia");
+		this.sessionStorage.setItem("password6", "Sophia2007");
+		this.sessionStorage.setItem("username7", "Laura");
+		this.sessionStorage.setItem("password7", "Laura2007");
+		this.sessionStorage.setItem("username8", "GKarine");
+		this.sessionStorage.setItem("password8", "GKarine2007");
 	}
 
 	var input = document.getElementsByTagName('input');
@@ -45,9 +61,58 @@
 		{
 			if ((input[0].value == sessionStorage.getItem("username")) && (input[1].value == sessionStorage.getItem("password")) )
 			{
-				window.location="secretsanta.html"
+				window.location="gennadi.html"
 				form.onsumbit = ()=>{return 1}
 			}
+
+			if ((input[0].value == sessionStorage.getItem("username1")) && (input[1].value == sessionStorage.getItem("password1")) )
+			{
+				window.location="samvel.html"
+				form.onsumbit = ()=>{return 1}
+			}
+
+			if ((input[0].value == sessionStorage.getItem("username2")) && (input[1].value == sessionStorage.getItem("password2")) )
+			{
+				window.location="Chsamvel.html"
+				form.onsumbit = ()=>{return 1}
+			}
+
+			if ((input[0].value == sessionStorage.getItem("username3")) && (input[1].value == sessionStorage.getItem("password3")) )
+			{
+				window.location="DHayk.html"
+				form.onsumbit = ()=>{return 1}
+			}
+
+			if ((input[0].value == sessionStorage.getItem("username4")) && (input[1].value == sessionStorage.getItem("password4")) )
+			{
+				window.location="YHayk.html"
+				form.onsumbit = ()=>{return 1}
+			}
+
+			if ((input[0].value == sessionStorage.getItem("username5")) && (input[1].value == sessionStorage.getItem("password5")) )
+			{
+				window.location="Eduard.html"
+				form.onsumbit = ()=>{return 1}
+			}
+
+			if ((input[0].value == sessionStorage.getItem("username6")) && (input[1].value == sessionStorage.getItem("password6")) )
+			{
+				window.location="Sophia.html"
+				form.onsumbit = ()=>{return 1}
+			}
+
+			if ((input[0].value == sessionStorage.getItem("username7")) && (input[1].value == sessionStorage.getItem("password7")) )
+			{
+				window.location="Laura.html"
+				form.onsumbit = ()=>{return 1}
+			}
+
+			if ((input[0].value == sessionStorage.getItem("username8")) && (input[1].value == sessionStorage.getItem("password8")) )
+			{
+				window.location="GKarine.html"
+				form.onsumbit = ()=>{return 1}
+			}
+
 			else
 			{
 				if ((input[0].value != sessionStorage.getItem("username")) )
