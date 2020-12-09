@@ -1,0 +1,22 @@
+img{
+	width: 4%;
+}
+
+h5{
+	font-family: Century Gothic;
+	color: #000FFF;
+	position: absolute;
+	left: 60px;
+	top: 7px;
+	font-size: 15px;
+}
+
+h4{
+	font-family: Century Gothic;
+	color: gray;
+	font-size: 15px;
+	position: absolute;
+	left: 60px;
+	top: -7px;
+}
+
